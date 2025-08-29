@@ -3,10 +3,10 @@ home: true
 layout: Blog
 icon: house
 title: 博客主页
-heroImage: https://avatars.githubusercontent.com/u/169582429?v=4
-heroText: 你博客的名称
+heroImage: https://avatars.githubusercontent.com/u/169582429?v=4    --头像
+heroText: qiyu   --名称
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
+tagline: 为分享而生  --简介
 projects:
   - icon: folder-open
     name: 项目名称
