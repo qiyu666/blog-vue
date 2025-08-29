@@ -4,9 +4,9 @@ layout: Blog
 icon: house
 title: 博客主页
 heroImage: https://avatars.githubusercontent.com/u/169582429?v=4    --头像
-heroText: qiyu   --名称
+heroText: qiyu
 heroFullScreen: true
-tagline: 为分享而生  --简介
+tagline: 为分享而生
 projects:
   - icon: folder-open
     name: 项目名称
