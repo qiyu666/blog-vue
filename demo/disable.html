@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.24" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.94" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme="dark"] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"布局与功能禁用","image":[""],"dateModified":"2025-08-29T10:22:07.000Z","author":[{"@type":"Person","name":"Mr.Hope","url":"https://mister-hope.com"}]}</script><meta property="og:url" content="https://mister-hope.github.io/demo/disable.html"><meta property="og:site_name" content="博客演示"><meta property="og:title" content="布局与功能禁用"><meta property="og:description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。"><meta property="og:type" content="article"><meta property="og:locale" content="zh-CN"><meta property="og:updated_time" content="2025-08-29T10:22:07.000Z"><meta property="article:tag" content="禁用"><meta property="article:modified_time" content="2025-08-29T10:22:07.000Z"><title>布局与功能禁用 | 博客演示</title><meta name="description" content="你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。">
+    <link rel="stylesheet" href="/assets/css/styles.df2801c7.css">
+    <link rel="preload" href="/assets/js/runtime~app.1947ceea.js" as="script"><link rel="preload" href="/assets/css/styles.df2801c7.css" as="style"><link rel="preload" href="/assets/js/8980.690c077c.js" as="script"><link rel="preload" href="/assets/js/app.a106293b.js" as="script">
+    <link rel="prefetch" href="/assets/js/8300.076ef381.js" as="script"><link rel="prefetch" href="/assets/js/demo_markdown.html.10add075.js" as="script"><link rel="prefetch" href="/assets/js/demo_page.html.0f8d8ff6.js" as="script"><link rel="prefetch" href="/assets/js/demo_layout.html.a3bd33b3.js" as="script"><link rel="prefetch" href="/assets/js/index.html.0d6ea962.js" as="script"><link rel="prefetch" href="/assets/js/posts_tomato.html.003e9b11.js" as="script"><link rel="prefetch" href="/assets/js/posts_banana_2.html.0eacf53e.js" as="script"><link rel="prefetch" href="/assets/js/posts_apple_2.html.42b5a636.js" as="script"><link rel="prefetch" href="/assets/js/posts_banana_1.html.d150fb18.js" as="script"><link rel="prefetch" href="/assets/js/posts_banana_3.html.40c7bf70.js" as="script"><link rel="prefetch" href="/assets/js/posts_banana_4.html.b3ae45ef.js" as="script"><link rel="prefetch" href="/assets/js/posts_apple_4.html.d6fe9ab3.js" as="script"><link rel="prefetch" href="/assets/js/posts_apple_3.html.7bebc9ae.js" as="script"><link rel="prefetch" href="/assets/js/posts_apple_1.html.dbce1930.js" as="script"><link rel="prefetch" href="/assets/js/posts_cherry.html.c8e412eb.js" as="script"><link rel="prefetch" href="/assets/js/posts_dragonfruit.html.9f7c7b08.js" as="script"><link rel="prefetch" href="/assets/js/demo_disable.html.c3ada490.js" as="script"><link rel="prefetch" href="/assets/js/posts_strawberry.html.4922f9e7.js" as="script"><link rel="prefetch" href="/assets/js/intro.html.674de757.js" as="script"><link rel="prefetch" href="/assets/js/demo_index.html.865ccebc.js" as="script"><link rel="prefetch" href="/assets/js/demo_encrypt.html.bfa21613.js" as="script"><link rel="prefetch" href="/assets/js/category_使用指南_index.html.c6f636c1.js" as="script"><link rel="prefetch" href="/assets/js/tag_使用指南_index.html.f1c41f4c.js" as="script"><link rel="prefetch" href="/assets/js/tag_页面配置_index.html.dd5790eb.js" as="script"><link rel="prefetch" href="/assets/js/category_火龙果_index.html.503c602b.js" as="script"><link rel="prefetch" href="/assets/js/tag_弯曲的_index.html.dcd25d22.js" as="script"><link rel="prefetch" href="/assets/js/category_指南_index.html.dd4fd51f.js" as="script"><link rel="prefetch" href="/assets/js/category_樱桃_index.html.f659eeec.js" as="script"><link rel="prefetch" href="/assets/js/category_水果_index.html.f91b45e9.js" as="script"><link rel="prefetch" href="/assets/js/category_苹果_index.html.c0ba631b.js" as="script"><link rel="prefetch" href="/assets/js/category_草莓_index.html.744df35b.js" as="script"><link rel="prefetch" href="/assets/js/category_蔬菜_index.html.830a907c.js" as="script"><link rel="prefetch" href="/assets/js/category_香蕉_index.html.772f014b.js" as="script"><link rel="prefetch" href="/assets/js/tag_加密_index.html.cdf7240c.js" as="script"><link rel="prefetch" href="/assets/js/tag_禁用_index.html.4d4a1deb.js" as="script"><link rel="prefetch" href="/assets/js/tag_布局_index.html.542853d7.js" as="script"><link rel="prefetch" href="/assets/js/tag_markdown_index.html.d9e2b6d3.js" as="script"><link rel="prefetch" href="/assets/js/404.html.387f5cd8.js" as="script"><link rel="prefetch" href="/assets/js/tag_大_index.html.12ae66e5.js" as="script"><link rel="prefetch" href="/assets/js/tag_小_index.html.8e3d0391.js" as="script"><link rel="prefetch" href="/assets/js/tag_红_index.html.7a3e13b6.js" as="script"><link rel="prefetch" href="/assets/js/tag_长_index.html.92500592.js" as="script"><link rel="prefetch" href="/assets/js/tag_圆_index.html.ee22d360.js" as="script"><link rel="prefetch" href="/assets/js/tag_黄_index.html.de19f7d6.js" as="script"><link rel="prefetch" href="/assets/js/timeline_index.html.54943069.js" as="script"><link rel="prefetch" href="/assets/js/category_index.html.a01ce862.js" as="script"><link rel="prefetch" href="/assets/js/article_index.html.bb57ad19.js" as="script"><link rel="prefetch" href="/assets/js/tag_index.html.96c55281.js" as="script"><link rel="prefetch" href="/assets/js/star_index.html.fe8dfbca.js" as="script"><link rel="prefetch" href="/assets/js/posts_banana_index.html.0a475b26.js" as="script"><link rel="prefetch" href="/assets/js/posts_apple_index.html.5142058e.js" as="script"><link rel="prefetch" href="/assets/js/posts_index.html.7a902c55.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-navbar no-sidebar external-link-icon has-toc" vp-container><!----><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><!----><!--[--><main id="main-content" class="vp-page"><!--[--><!----><!----><nav class="vp-breadcrumb disable"></nav><div class="vp-page-title"><h1><iconify-icon class="vp-icon" icon="fa6-solid:gears" sizing="height" height="1em"></iconify-icon>布局与功能禁用</h1><!----><hr></div><!----><div class="" vp-content><!----><div id="markdown-content"><p>你可以通过设置页面的 Frontmatter，在页面禁用功能与布局。</p><!-- more --><p>本页面就是一个示例，禁用了如下功能:</p><ul><li>导航栏</li><li>侧边栏</li><li>路径导航</li><li>页面信息</li><li>贡献者</li><li>编辑此页链接</li><li>更新时间</li><li>上一篇/下一篇 链接</li><li>评论</li><li>页脚</li><li>返回顶部按钮</li></ul></div><!----><!----><!----></div><footer class="vp-page-meta"><!----><div class="vp-meta-item git-info"><!----><!----></div></footer><!----><!----><!----><!--]--></main><!--]--><!----></div><!--]--><!--[--><!----><!--[--><!--]--><!--]--><!--]--></div>
+    <script src="/assets/js/runtime~app.1947ceea.js" defer></script><script src="/assets/js/8980.690c077c.js" defer></script><script src="/assets/js/app.a106293b.js" defer></script>
+  </body>
+</html>
