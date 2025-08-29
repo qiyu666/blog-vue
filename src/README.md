@@ -33,7 +33,7 @@ projects:
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: https://theme-hope-assets.vuejs.press/logo.svg
+  - icon: https://avatars.githubusercontent.com/u/169582429?v=4
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接
